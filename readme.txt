@@ -4,8 +4,8 @@ Contributors: phantomthemes
 Tags: translation-ready, custom-background, theme-options, custom-menu, threaded-comments
 
 Requires at least: 4.5
-Tested up to: 4.7
-Stable tag: 1.0.4
+Tested up to: 4.8
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,6 +57,9 @@ topbar.png				CC0, Phantomthemes
 
 
 == Changelog ==
+
+= 1.0.5 - July 8 2017 =
+* Fixed Header color mismatch with background.
 
 = 1.0.4 - March 30 2017 =
 * Theme error fixed 
