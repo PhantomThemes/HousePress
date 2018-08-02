@@ -3,9 +3,9 @@
 Contributors: phantomthemes
 Tags: translation-ready, custom-background, theme-options, custom-menu, threaded-comments
 
-Requires at least: 4.5
-Tested up to: 4.8
-Stable tag: 1.0.5
+Requires at least: 4.6
+Tested up to: 4.9.7
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,7 @@ GNU General Public License for more details.
 
 * Based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2015 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
+* {TGM Plugin Activation} library is licensed under the GPL-2.0, https://github.com/TGMPA/TGM-Plugin-Activation/
 
 *Bootstrap
 All files from the /bootstrap folder are from the Bootstrap v3.3.6 package.
@@ -57,6 +58,9 @@ topbar.png				CC0, Phantomthemes
 
 
 == Changelog ==
+
+= 1.0.6 - August 1 2018 =
+* Update.
 
 = 1.0.5 - July 8 2017 =
 * Fixed Header color mismatch with background.
