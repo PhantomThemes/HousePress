@@ -88,6 +88,12 @@ function housepress_setup() {
 		'default-image' => '',
 			)  
 		);
+	/*
+	 * Enable support for Selective Refresh for Widgets.
+	 * See https://make.wordpress.org/core/2016/11/10/visible-edit-shortcuts-in-the-customizer-preview/
+	 */
+	add_theme_support( 'customize-selective-refresh-widgets' );
+
 	add_editor_style() ;
 }
 endif; // housepress_setup
@@ -240,3 +246,52 @@ if( !function_exists('housepress_register_plugins') ) {
  		tgmpa( $plugins, $config );
 	}
 }
+
+
+/* housepress Demo importer */
+add_filter( 'pt-ocdi/import_files', 'housepress_import_demo_data' );
+if ( ! function_exists( 'housepress_import_demo_data' ) ) {
+	function housepress_import_demo_data() {
+	  return array(
+	    array(   
+			'import_file_name'             => __('Default Demo','housepress'),
+			'categories'                   => array( 'Default', 'Blog' ),
+			'local_import_file'            => trailingslashit( get_template_directory() ) . 'demo/default/demo-content.xml',
+			'local_import_widget_file'     => trailingslashit( get_template_directory() ) . 'demo/default/widgets.json',
+			'local_import_customizer_file' => trailingslashit( get_template_directory() ) . 'demo/default/customizer.dat',
+			'import_preview_image_url'     => 'https://phantomthemes.com/demo/housepress/wp-content/themes/housepress/screenshot.png',
+			'preview_url'                  => 'https://phantomthemes.com/view?theme=HousePress',
+		),
+	  ); 
+	}
+}
+ add_action( 'pt-ocdi/after_import', 'housepress_after_import' );
+if ( ! function_exists( 'housepress_after_import' ) ) {
+	function housepress_after_import( $selected_import ) { 
+		$importer_name  = __('Default Demo','housepress');
+	 
+	    if ( $importer_name === $selected_import['import_file_name'] ) {
+	        //Set Menu
+			$top_menu = get_term_by('name', 'Primary Menu', 'nav_menu'); 
+			$footer_menu= get_term_by('name', 'Footer Menu', 'nav_menu');
+	        set_theme_mod( 'nav_menu_locations' , array( 				  
+				'primary' => $top_menu->term_id,
+				'secondary' => $footer_menu->term_id,				
+	             ) 
+			);
+			
+			//Set Front page
+		    if( get_option('page_on_front') === '0' && get_option('page_for_posts') === '0' ) {
+				$page = get_page_by_title( 'Home');
+				//$blog = get_page_by_title( 'Blog');
+				if ( isset( $page->ID ) ) {
+						update_option( 'show_on_front', 'page' );
+					 update_option( 'page_on_front', $page->ID );
+					 //update_option('page_for_posts', $blog->ID);
+				}
+			 }
+	    }
+	     
+	}
+}
+ add_filter( 'pt-ocdi/disable_pt_branding', '__return_true' );

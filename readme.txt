@@ -5,7 +5,7 @@ Tags: translation-ready, custom-background, theme-options, custom-menu, threaded
 
 Requires at least: 4.6
 Tested up to: 4.9.7
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,8 +59,10 @@ topbar.png				CC0, Phantomthemes
 
 == Changelog ==
 
-= 1.0.6 - August 1 2018 =
-* Update.
+= 1.0.7 - August 2 2018 =
+* TGM Plugin activation.
+* Deafult Feature Thumbnail added.
+* One Click Demo Import Supported.
 
 = 1.0.5 - July 8 2017 =
 * Fixed Header color mismatch with background.
