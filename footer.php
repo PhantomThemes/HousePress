@@ -23,7 +23,7 @@
 		<div class="container">
 
 			<div class="pull-left"> <?php echo __('Copyright ','housepress');  echo bloginfo(); ?> <?php echo esc_attr(date("Y")); ?>. 
-			<?php echo __('All Rights Reserved.','housepress'); ?> | <?php echo __('Design by :','housepress'); ?> <a href="http://phantomthemes.com"><?php echo __('Phantom Themes','housepress'); ?> </a></div>
+			<?php echo __('All Rights Reserved.','housepress'); ?> | <?php echo __('Design by :','housepress'); ?> <a href="https://phantomthemes.com"><?php echo __('Phantom Themes','housepress'); ?> </a></div>
 			<div class="pull-right"><?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => 'secondary-menu' ) ); ?></div>
     	</div>
 	</section>

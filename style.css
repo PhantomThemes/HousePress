@@ -5,7 +5,7 @@ Theme URI: http://phantomthemes.com/downloads/housepress-wordpress-theme/
 Author: phantomthemes
 Author URI: http://phantomthemes.com
 Description: Housepress is light Blog Theme for WordPress with Grid layout. Housepress is Simple WordPress theme and load faster compare to other themes, this theme is based on Bootstrap View Full Demo http://phantomthemes.com/view?theme=HousePress
-Version: 1.0.7
+Version: 1.0.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: Housepress
@@ -444,6 +444,9 @@ a:hover,
 a:active {
     outline: 0;
 }
+footer ul li a:hover{
+    color: #eee;
+}
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
@@ -857,7 +860,7 @@ body.logged-in.admin-bar .site-header {
 footer,
 .entry-meta {
     font-style: italic;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 .entry-footer span {
     display: block;
@@ -948,7 +951,7 @@ footer .footer-info ul {
 footer .footer-info ul li {
     list-style: none;
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 footer .footer-info ul ul {
     display: none;
