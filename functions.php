@@ -295,3 +295,11 @@ if ( ! function_exists( 'housepress_after_import' ) ) {
 	}
 }
  add_filter( 'pt-ocdi/disable_pt_branding', '__return_true' );
+
+ // Menu Fallback
+function housepress_wp_nav_default_primary_menu() {
+	get_template_part( 'template-parts/default-primary-menu' );
+}
+function housepress_wp_nav_default_secondary_menu() {
+   get_template_part( 'template-parts/default-secondary-menu' );
+}

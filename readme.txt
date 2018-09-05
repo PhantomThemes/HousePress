@@ -4,8 +4,8 @@ Contributors: phantomthemes
 Tags: translation-ready, custom-background, theme-options, custom-menu, threaded-comments
 
 Requires at least: 4.6
-Tested up to: 4.9.7
-Stable tag: 1.0.8
+Tested up to: 4.9.8
+Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,9 @@ topbar.png				CC0, Phantomthemes
 
 == Changelog ==
 
+= 1.0.9 - Sept 5 2018 =
+* Added Fallback Menu
+
 = 1.0.8 - August 2 2018 =
 * TGM Plugin activation.
 * Deafult Feature Thumbnail added.
@@ -84,5 +87,3 @@ topbar.png				CC0, Phantomthemes
 
 = 1.0.0 - July 26 2016 =
 * Initial release
-
-
