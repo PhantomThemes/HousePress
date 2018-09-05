@@ -12,8 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Housepress is light Blog Theme for WordPress with Grid layout. housepress is Simple WordPress theme and load faster compare to other themes, this theme is based on Bootstrap 
-
+HousePress is light Blogging Theme for WordPress with Grid layout. It is Simple & Creative Free Responsive Theme based on Bootstrap 4 and Underscore Framework. It is beautifully handcrafted with minimalist design approach and home page comes with magazine layout, View Full Demo https://phantomthemes.com/view?theme=HousePress
 
 == Installation ==
 	

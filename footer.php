@@ -33,7 +33,7 @@
 							'fallback_cb' => 'housepress_wp_nav_default_secondary_menu' 
 						) ); 
 				?>
-    	</div>
+    	    </div>
 	</section>
 
 
