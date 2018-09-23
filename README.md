@@ -1,8 +1,10 @@
 #### See: [Official Demo](https://phantomthemes.com/view?theme=HousePress) | Read: [Official Docs Page](https://phantomthemes.com/house-press-doc/)
 
-# Housepress Free Bootstrap Wordpress Theme 
+# HousePress Free Bootstrap Wordpress Theme 
 
 Website: [https://phantomthemes.com](https://phantomthems.com)
+
+![screenshot](screenshot.png)
 
 ## About
 
