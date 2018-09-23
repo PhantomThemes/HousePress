@@ -5,7 +5,7 @@ Tags: translation-ready, custom-background, theme-options, custom-menu, threaded
 
 Requires at least: 4.6
 Tested up to: 4.9.8
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,6 +57,9 @@ topbar.png				CC0, Phantomthemes
 
 
 == Changelog ==
+
+= 1.1.0 - Sept 23 2018 =
+* ReadMe for Github Support
 
 = 1.0.9 - Sept 5 2018 =
 * Added Fallback Menu
