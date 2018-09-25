@@ -8,6 +8,6 @@
  */
 ?>
 
-<div id="secondary" class="widget-area col-md-3" role="complementary">
+<div id="secondary" class="widget-area col-lg-3" role="complementary">
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </div><!-- #secondary -->

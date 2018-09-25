@@ -1058,7 +1058,7 @@ footer .footer-info ul ul {
     .main-navigation ul ul {
         padding-left: 15px;
     }
-    footer .footer-info .pull-right {
+    footer .footer-info .float-right {
         float: left !important;
         width: 100%;
     }
