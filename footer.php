@@ -22,9 +22,9 @@
 	<section class="footer-info">
 		<div class="container">
 
-			<div class="pull-left float-right"> <?php echo __('Copyright ','housepress');  echo bloginfo(); ?> <?php echo esc_attr(date("Y")); ?>. 
+			<div class="float-left"> <?php echo __('Copyright ','housepress');  echo bloginfo(); ?> <?php echo esc_attr(date("Y")); ?>. 
 			<?php echo __('All Rights Reserved.','housepress'); ?> | <?php echo __('Design by :','housepress'); ?> <a href="https://phantomthemes.com"><?php echo __('Phantom Themes','housepress'); ?> </a></div>
-			<div class="pull-right float-right">
+			<div class="float-right">
 				<?php 
 					wp_nav_menu( 
 						array( 

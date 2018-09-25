@@ -50,6 +50,7 @@ The Housepress bootstrap WordPress theme allows you to create a visually appeali
 - Grid Layout  
 The Housepress bootstrap WordPress theme allows you to create a visually appealing, professional web page that is mobile friendly and easy to navigate.
 
+
 ## Installation
 There are several ways to install housepress. We'll look at three of them: (1) classic install by uploading phantomthemes to a WordPress install,and (2) using the theme directory in WordPress. 
 
@@ -59,7 +60,6 @@ There are several ways to install housepress. We'll look at three of them: (1) c
 - Login to your WordPress backend
 - Go to Appearance → Themes
 - Activate the housepress theme
-
 
 ### WordPress.org install
 - Open your WordPress backend
